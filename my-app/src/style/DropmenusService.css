@@ -1,0 +1,99 @@
+
+
+
+
+
+
+.accordion__headers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+   width : 80%; 
+  background : #FF6060; 
+  margin : 20px 0 0 8rem; 
+ height: 40px;
+  padding: 1rem;
+  border-radius: 10px;
+
+}
+ @media screen and (min-width:200px) and (max-width:800px) {
+.accordion__headers {
+  margin : 20px 0 0 2rem; 
+}
+ }
+
+.accordion__headers.active {
+  background : #963535; 
+}
+
+.accordion__iconre {
+  font-size: 1.5rem;
+}
+
+.accordion__contents {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  
+margin-left: 8rem;
+ margin-right: 15.8rem;
+  
+  overflow: hidden;
+  text-align: center;
+
+  background-color: #F6F6F6;
+  
+}
+
+.accordion__contents.active {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+  padding: 3rem !important;
+   width: 76%;
+}
+
+.txt {
+  color: white;
+}
+
+/*.dropmenu {
+  width : 80%; 
+  background: #d9d9d9;
+  margin : 20px 0 0 8rem; 
+  height: 80px;
+  margin-top: 10rem;
+}
+
+.span {
+  padding : 30px;
+  background : #FF6060; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width: 97.4%;
+  margin-top: 0rem;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+  background-color: #F6F6F6;
+}
+
+.slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 150px;}  */

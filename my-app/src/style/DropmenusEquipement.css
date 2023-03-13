@@ -1,0 +1,90 @@
+
+
+.accordion__header {
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  justify-content: space-between;
+  cursor: pointer;
+   width : 95%; 
+  background : #FF6060; 
+  height: 60px;
+  margin-top: 10rem;
+  margin-right: 15.8rem !important;
+  padding: 1rem;
+
+}
+
+.accordion__header.active {
+  background : #963535; 
+}
+
+.accordion__icone {
+  font-size: 1.5rem;
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  text-align: center;
+  background-color: #F6F6F6;
+  
+}
+
+.accordion__content.active {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+  width: 89%;
+  padding: 2rem;
+}
+
+.txt {
+  color: white;
+}
+
+.chevron {
+  color: white;
+}
+
+/*.dropmenu {
+  width : 80%; 
+  background: #d9d9d9;
+  margin : 20px 0 0 8rem; 
+  height: 80px;
+  margin-top: 10rem;
+}
+
+.span {
+  padding : 30px;
+  background : #FF6060; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width: 97.4%;
+  margin-top: 0rem;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+  background-color: #F6F6F6;
+}
+
+.slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 150px;}  */

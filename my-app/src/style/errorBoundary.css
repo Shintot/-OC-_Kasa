@@ -1,0 +1,20 @@
+.error404 {
+    color: #FF6060;
+    font-size: 200px;
+    text-align: center;
+}
+
+.errorOups {
+    color: #FF6060;
+    text-align: center;
+    font-size: 30px;
+}
+
+.errorLink {
+     color: #FF6060;
+    text-align: center;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+}
+

@@ -1,0 +1,54 @@
+.carousel {
+    padding: 10px 10px 0;
+    border-radius: 4px;
+    width: 92%;
+    margin: auto;
+    
+}
+
+.carousel img {
+    width: 100%;
+    display: inline-block;
+    pointer-events: none;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.prev {
+width: 50px;
+height: 50px;
+color: white;
+cursor: pointer;
+position: absolute;
+left: 2%;
+top: 14rem;
+
+}
+
+.prev:hover {
+    color: rgb(139, 139, 126);
+}
+
+.next {
+width: 50px;
+height: 50px;
+color: white;
+cursor: pointer;
+position: absolute;
+left: 95%;
+top: 14rem;
+
+}
+
+.next:hover {
+    color: rgb(139, 139, 126);
+}
+
+.image-count{
+    z-index: 10;
+    position: absolute;
+    top: 30rem;
+    color: white;
+    left: 50%;
+}

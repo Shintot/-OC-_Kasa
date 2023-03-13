@@ -1,0 +1,129 @@
+
+.presentation {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ @media screen and (min-width:200px) and (max-width:1200px) {
+.presentation {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+.presentation__hote {
+  display: flex !important;
+  margin-left: 5rem !important;
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accordion {
+    margin-top: 1rem;
+    width: 95% !important;
+    padding: 1rem;
+}
+
+.accordion__header {
+    margin: 0 0 0 0!important;
+    
+}
+
+
+ }
+
+.flex2{
+    display: flex;
+    width: 80%;
+    margin-left: 7%;
+    margin-top: -2rem;
+}
+.presentation__titre {
+    color:  #FF6060;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    
+}
+
+.presentation__texte {
+    color:  #FF6060;
+    font-family: 'Montserrat';
+    margin-left: 5rem;
+    margin-top: -15px;
+}
+
+.presentation__texte2 {
+    color:  #FF6060;
+    font-family: 'Montserrat';
+  
+    text-align: right;
+    font-size: 25px;
+}
+
+.presentation__tagline {
+    display: grid;
+   
+    width: 30%;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.presentation__tags {
+    background-color: #FF6060;
+    height: 25px;
+    border-radius: 0.5rem;
+    
+}
+
+.presentation__tagstitre {
+    color:  white;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.presentation__portrait {
+    border-radius: 50%;
+}
+
+.presentation__hote {
+    display: flex;
+   
+        flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 5rem;
+}
+
+.etoiles {
+    color: #FF6060;
+   height: 2em;
+   width: 2rem;
+}
+
+.contenante {
+    
+        display: flex;
+    margin-right: 4rem;
+   gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lesEtoiles {
+       justify-content: center;
+    display: flex;
+    
+}
+

@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.banner {
+    color: black;
+    text-align: left;
+    padding: 32px;
+}
+
+.flexBetween1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ @media screen and (min-width:200px) and (max-width:800px) {
+.flexBetween1 {
+    display: flex;
+    flex-direction: column;
+}
+ }
+
+.nav {
+    cursor: pointer;
+    height: 34px;
+    width: 136px;
+    left: 931px;
+    top: 17px;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-right: 5rem;
+    text-decoration: none;
+}
+
+
+
+.nav:hover {
+    color: #8a3232;
+}
